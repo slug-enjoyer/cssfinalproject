@@ -3,6 +3,7 @@ body{
     display: flex;
     flex-direction: column;
 }
+
 .header{
     color: white;
     background: #1F2937;
@@ -17,11 +18,7 @@ body{
 .r-links{
     
 }
-.topcontent{
-    display:flex;
-    justify-content: space-around;
-    background: #1F2937;
-}
+
 ul{
     display: flex;
     list-style: none;
@@ -30,9 +27,17 @@ ul{
 li{
     padding-right: 10px;
 }
+
 .content{
     
     color:black;
+}
+
+.topcontent{
+    display:flex;
+    justify-content: space-around;
+    background: #1F2937;
+    font-size: 22px;
 }
 
 .introL{
@@ -44,6 +49,7 @@ li{
     padding: 50px;
 
 }
+
 .btn1{
     background-color: #3882F6;
     color: white;
@@ -55,9 +61,11 @@ li{
 .btn1:hover{
     background-color:#6c99e1 ;
 }
+
 .introR{
 padding: 50px;
 }
+
 .bodyimg{
     background: white;
 
