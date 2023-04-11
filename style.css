@@ -46,7 +46,14 @@ li{
 }
 .btn1{
     background-color: #3882F6;
-
+    color: white;
+    border: 0;
+    border-radius: 5px;
+    padding: 5px;
+    width: 100px;
+}
+.btn1:hover{
+    background-color:#6c99e1 ;
 }
 .introR{
 padding: 50px;
