@@ -20,6 +20,7 @@ body{
 }
 .topcontent{
     display:flex;
+    justify-content: space-between;
 }
 ul{
     display: flex;
@@ -39,9 +40,15 @@ li{
     background: #1F2937;
     display: flex;
     flex-direction: column;
+    width: 300px;
+
 }
 .btn1{
     background-color: #3882F6;
+}
+.introR{
+    background: #1F2937;
+    display: flex;
 }
 .bodyimg{
     background: white;
