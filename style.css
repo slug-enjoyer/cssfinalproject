@@ -7,7 +7,6 @@ body{
     color: white;
     background: #1F2937;
     display: flex;
-    min-height: 300px;
     justify-content: space-between; /* pushes the two sides apart in the header*/
 }
 
@@ -20,7 +19,8 @@ body{
 }
 .topcontent{
     display:flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    background: #1F2937;
 }
 ul{
     display: flex;
@@ -41,14 +41,15 @@ li{
     display: flex;
     flex-direction: column;
     width: 300px;
+    padding: 50px;
 
 }
 .btn1{
     background-color: #3882F6;
+
 }
 .introR{
-    background: #1F2937;
-    display: flex;
+padding: 50px;
 }
 .bodyimg{
     background: white;
