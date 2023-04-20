@@ -30,7 +30,6 @@ li{
 }
 
 .content{
-    
     color:black;
 }
 
@@ -76,22 +75,32 @@ justify-content: center;
     flex-direction: column;
     background: white;
     align-items: center;
+    padding-top: 25px;
 }
 .boxesline{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
+    padding-bottom: 75px;
 }
 .boxes{
     border: 2px solid #3882F6;
-    border-radius: 5px;
+    border-radius: 10px;
+    padding: 5px;
     width: 150px;
     height: 150px;
+    margin: 25px;
 }
-img .boxes{
-    justify-content: center;
-}
-.quote{
+
+.quoteblock{
     background: #e5e7eb;
+    display: flex;
+    justify-content: center;    
+    padding:75px;
+}
+
+.quotetxt{
+    
+    width: 250px;
 }
 
 .actionbox{
