@@ -88,16 +88,20 @@ justify-content: center;
     flex-direction: column;
     align-items: center;
     width: 150px;
-    margin: 10px 35px;
+    margin: 0px 45px;
 }
 
+em{
+    text-align: center;
+    font-size: 18px;
+}
 .boxes{
     border: 2px solid #3882F6;
     border-radius: 10px;
     padding: 5px;
     width: 150px;
     height: 150px;
-    margin: 10px 35px ;
+    margin: 10px;
 }
 
 .quoteblock{
@@ -108,10 +112,58 @@ justify-content: center;
 }
 
 .quotetxt{
-    
-    width: 250px;
+    width: 60%;
 }
 
-.actionbox{
-    
+em.quotetxt{
+    font-size: 32px;
+}
+
+.actionBox{
+    display: flex;
+    justify-content: center;
+    height: 300px;
+    padding:100px;
+}
+
+.blueBox{
+    display: flex;
+    justify-content: center;
+    background-color: #3882F6;
+    color: #e5e7eb;
+    width: 75%;
+    height: 75%;
+    align-items: center;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.blueLside{
+    flex-direction: column;
+    padding-right: 50px;
+}
+
+.blueRside{
+
+}
+
+.btn2{
+    background-color: #3882F6;
+    color: white;
+    border: 2px solid white ;
+    border-radius: 5px;
+    padding: 5px;
+    width: 100px;
+}
+.btn2:hover{
+    background-color:#6c99e1 ;
+}
+
+.footer{
+    display: flex;
+    background: #1F2937;
+    color: white;
+    justify-content: center;
+    padding: 25px;
+    font-size: 18px;
 }
